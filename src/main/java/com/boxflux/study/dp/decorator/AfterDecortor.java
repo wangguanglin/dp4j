@@ -1,5 +1,7 @@
 package com.boxflux.study.dp.decorator;
 
+import java.io.FileInputStream;
+
 /**
  * Created by wangguanglin on 2019/5/7.
  */
@@ -16,5 +18,4 @@ public class AfterDecortor extends Decortor {
     private void after(){
         System.out.println("this is after method");
     }
-
 }
